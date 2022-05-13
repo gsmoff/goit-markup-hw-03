@@ -36,19 +36,23 @@
       </nav>
       <ul class="contacts list">
         <li class="contacts-item">
-          <a class="contacts-link" lang="en" href="mailto:info@devstudio.com"
-            ><span class="icon"></span>info@devstudio.com</a
-          >
+          <a class="contacts-link" lang="en" href="mailto:info@devstudio.com">
+            <svg class="icon-link mail">
+              <use href="./images/icon.svg#icon-letter"></use>
+            </svg>
+            info@devstudio.com</a>
         </li>
         <li class="contacts-item">
           <a class="contacts-link" href="tel:+380961111111"
-            ><span class="icon"></span> +38 096 111 11 11</a
-          >
+            ><svg class="icon-link tel">
+              <use href="./images/icon.svg#icon-phone"></use>
+            </svg>+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
 
     <main>
+      <div class="border-main"></div>
       <section class="section">
         <div class="container">
           <h1 class="portfolio">Виды проектов</h1>
@@ -199,6 +203,7 @@
     <!--Футер-->
     <footer>
       <div class="container">
+        <div class="footer-list">
         <a href="./index.html" class="logo-link" lang="en"
           >Web<span class="logo-studio">Studio</span></a
         >
@@ -224,6 +229,28 @@
             </li>
           </ul>
         </address>
+        </div>
+        <div class="social-list">
+          <h3 class="features-title">Присоединяйтесь</h3>
+          <ul class="list-link">
+            <li class="link-iteam"><a href="" class="link ">
+              <svg class="social-icon">
+              <use href="./images/icon.svg#icon-instagram"></use>
+              </svg></a></li>
+            <li class="link-iteam"><a href="" class="link">
+              <svg class="social-icon">
+              <use href="./images/icon.svg#icon-twitter"></use>
+              </svg></a></li>
+            <li class="link-iteam"><a href="" class="link">
+              <svg class="social-icon">
+              <use href="./images/icon.svg#icon-facebook"></use>
+              </svg></a></li>
+            <li class="link-iteam"><a href="" class="link">
+              <svg class="social-icon">
+              <use href="./images/icon.svg#icon-linkedin"></use>
+              </svg></a></li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
